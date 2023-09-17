@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1 align="center">FORM NO.1 </h1>
+    <h2>Please fill out the form to register for the event.  </h2>
+    <label for="Name">Name : </label>
+    <input type="text" id="Name" placeholder="Enter your Name Her">
+    <br><br>
+
+    <label for="email">Enter your Email id :</label>
+    <input placeholder="write your email" type="email">
+    <!-- <label for="email">Email : </label>
+    <input type="text" id="email" placeholder="Enter your Mail id Her"> -->
+    
+    <br><br>
+    <label for="phone">Phone : </label>
+    <input type="text" name="phone" id="phone" placeholder="Enter your Mobile No. Her">
+    
+    <br><br>
+    <label for="occ">Occupation : </label> &nbsp;
+    <select name="occ" id="occ">
+        <option value="student">Student</option>   
+        <option value="teacher">Teacher</option>
+        <option value="principal">Principal</option>
+    </select>
+    <br><br>
+    <label for="topic">Topic of Interest : </label> <br>
+    <input type="text" placeholder="write your Interest her  "><br><br>
+
+    <fieldset>
+        <legend>Topic of Interest </legend>
+        <label for="cb1">C++ </label>
+        <input type="checkbox" name="cb1" id="cb1">&nbsp;
+        <label for="cb2">HTML </label>
+        <input type="checkbox" name="cb2" id="cb2">&nbsp;
+        <label for="cb3">java Script </label>
+        <input type="checkbox" name="cb3" id="cb3">&nbsp;
+        <label for="cb4">DSA </label>
+        <input type="checkbox" name="cb4" id="cb4">&nbsp;
+        <label for="cb5">PHP </label>
+        <input type="checkbox" name="cb5" id="cb5">&nbsp;
+    </fieldset> <br>
+    <label for="textarea">Comments : </label><br>
+    <textarea placeholder="Write your Comments her " name="textarea" id="textarea" cols="30" rows="3"></textarea><br><br>
+    
+    <input type="submit" value="Register">
+
+
+
+<h1 align="center"> FORM NO.2 </h1>
+<h2> Job Application form </h2>
+
+<label for="name"> Name : </label>
+<input type="text" placeholder="Enter Your Name" name="name" id="name"> <br><br>
+
+<label for="email"> Email : </label>
+<input type="text" placeholder="Enter your Email id" name="email" id="email"><br><br>
+
+<label for="phone"> Phone : </label>
+<input type="text" placeholder="Enter your Phone no." name="phone" id="phone"><br><br>
+
+<label for="resume">resume : </label>
+<input type="file" id="resume"><br><br>
+
+<label for="counter">Experience (in year) : </label>
+<input type="number" size="5" name="counter" id="counter" max="50" min="0">
+<br>
+<fieldset>
+    <legend> Skills </legend>
+    <label for="cb1">C++ </label>
+    <input type="checkbox" name="cb1" id="cb1">&nbsp;
+    <label for="cb2">HTML </label>
+    <input type="checkbox" name="cb2" id="cb2">&nbsp;
+    <label for="cb3">java Script </label>
+    <input type="checkbox" name="cb3" id="cb3">&nbsp;
+    <label for="cb4">DSA </label>
+    <input type="checkbox" name="cb4" id="cb4">&nbsp;
+    <label for="cb5">PHP </label>
+    <input type="checkbox" name="cb5" id="cb5">&nbsp;
+</fieldset>
+<br>
+<label for="education"> Highest Education : </label>
+<select name="education" id="education">
+    <option value="education">HSC PASSED</option>
+    <option value="education">Under Graduated</option>
+    <option value="education">Post Graduation</option>
+</select>
+<br><br>
+<fieldset>
+    <legend>availability</legend>
+    <label for="availability">Full Time </label>   
+    <input name="ab1" id="availability" type="radio">
+    <br>
+    <label for="availability1">Part Time </label>   
+    <input name="ab1" id="availability1" type="radio">
+</fieldset>
+<br>
+    <label for="textarea ">Additional comment :</label><br>
+    <textarea placeholder="write you comment her" name="textarea" id="textarea" cols="30" rows="5"></textarea>
+    <br><br>
+    <input type="button" value="Submit Application" name="Submit Application" >
+
+
+
+    <h1 align="center">FORM NO.3 </h1>
+
+    <h2> Personal Details </h2>
+    <fieldset>
+        <legend>Personal Information</legend><br>
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="email">Email : </label>
+        <input type="text" name="email" id="email"> <br><br>
+        <label for="Phone">Phone : </label>
+        <input type="text" name="Phone" id="Phone"><br><br>
+        <label for="birth">Date of Birth </label>
+        <input type="date"><br><br>
+
+        <label for="gender">Gender : </label>
+        <label for="male" id="gender"> male </label>
+        <input type="radio" id="gender" name="gender">
+        <label for="Female" id="gender">male </label>
+        <input type="radio" name="gender">   <br><br>
+
+        <label for="country">country : </label>
+        <select name="country" id="">
+            <option value="country">JAPAN</option>
+            <option value="country">USA</option>
+            <option value="country">UAE</option>
+            <option value="country">NEPAL</option>
+            <option value="country">INDIA</option>
+        </select>
+    </fieldset>
+    
+<fieldset>
+    <legend> Address  </legend>
+
+    <label for="street">Street : </label> 
+    <input type="text" name="street" id="street"><br><br>
+    <label for="city">City : </label>
+    <input type="text" name="City" id="City"><br><br>
+    <label for="street">Street : </label>
+    <input type="text" name="street" id="street"> <br><br>
+    <label for="zip">Zip Code : </label>
+    <input type="text" name="Zip" id="Zip">
+</fieldset>
+
+<fieldset>
+    <legend>Other Information </legend>
+    <label for="comment">Comments : </label><br>
+    <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+    <br><br>
+    <span>Agree to the term of service </span>
+    <input type="checkbox">
+</fieldset>
+<br>
+<input type="submit"  value="Submit">
+
+
+
+</body>
+</html>
