@@ -1,0 +1,127 @@
+
+body{
+    background-color: rgb(214, 226, 237);
+}
+
+/* Border in CSS */
+
+.h1{
+    text-align: center;
+    color:rgb(255, 0, 0) ;
+    font-family:cursive;
+    background-color: bisque;
+    /* border-style:ridge;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0); */
+
+    border:solid rgb(0, 0, 0) 5px; 
+
+   /* border-bottom: solid black 5px;   - its gives border at specific place */
+
+    border-radius: 25px; 
+   /* border-top-right-radius: 25px;  use for only one border radius*/
+
+   width: 380px;
+   
+   /* height: 200px; */
+   margin-left: 600px;
+   
+}
+
+.h2{
+    text-align: center;
+    color:rgb(255, 0, 0) ;
+    font-family:cursive;
+    background-color: bisque;
+    /* border-style:ridge;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0); */
+
+    border:solid rgb(0, 0, 0) 5px; 
+
+   /* border-bottom: solid black 5px;   - its gives border at specific place */
+
+    border-radius: 25px; 
+   /* border-top-right-radius: 25px;  use for only one border radius*/
+
+   width: 550px;
+
+   padding-left: 30px;
+   padding-right:30px ;
+   
+   /* height: 200px; */
+   margin-left: 480px;
+   margin-right:500px;
+
+}
+
+.firstpera{
+    background-color:rgb(244, 244, 202);
+    border:solid rgb(0, 0, 0) 2px; 
+    border-radius: 15px; 
+    /* width: 400px; */
+    padding: 10px;
+    margin: 25px 250px;
+    
+    width: 1000px;
+    
+}
+
+.secondpera{
+    background-color: rgb(244, 244, 202);
+    border:solid rgb(0, 0, 0) 2px; 
+    border-radius: 15px; 
+    /* width: 400px; */
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 1000px;
+    margin: 25px 250px;
+
+   
+}
+
+
+.h3{
+    text-align: center;
+    color:rgb(255, 0, 0) ;
+    font-family:cursive;
+    background-color: bisque;
+    /* border-style:ridge;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0); */
+
+    border:solid rgb(0, 0, 0) 5px; 
+
+   /* border-bottom: solid black 5px;   - its gives border at specific place */
+
+    border-radius: 25px; 
+   /* border-top-right-radius: 25px;  use for only one border radius*/
+
+   width: 550px;
+
+   padding-left: 30px;
+   padding-right:30px ;
+   
+   /* height: 200px; */
+   margin-left: 480px;
+   margin-right:500px;
+
+}
+
+
+.thirdpera{
+    background-color: rgb(244, 244, 202);
+    border:solid rgb(0, 0, 0) 2px; 
+    border-radius: 15px; 
+    /* width: 400px; */
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 1000px;
+    margin: 25px 250px;
+
+   
+}
+
+
