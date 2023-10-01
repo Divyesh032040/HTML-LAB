@@ -1,0 +1,48 @@
+
+
+.container{
+    background-color: beige;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap :wrap; 
+    justify-content:flex-start; 
+    height: 500px;
+    align-items:center;
+    /* align-content:space-evenly; */
+}
+
+
+.box{
+    width: 100px;
+    /* height: 100px; */
+    /* margin: 10px; */
+
+    text-align: center;
+    font-size: larger;
+    border: black 4px dashed;
+    margin: 10px;
+    
+  
+}
+#box1{
+      background-color: aquamarine;
+      order: -1;
+      
+}
+#box2{
+background-color: blue;
+
+
+}
+#box3{
+
+ background-color: blueviolet;   
+ order: -1;
+}
+#box4{
+
+    background-color: brown;
+    
+}
+
