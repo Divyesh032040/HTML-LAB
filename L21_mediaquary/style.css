@@ -1,0 +1,127 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(216, 239, 232);
+}
+
+.container{
+    background-color: rgb(216, 239, 232);
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 30px; */
+    justify-content: start;
+}
+
+.box1{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   border: rgb(0, 0, 0) 5px;
+   border-left: solid;
+   border-top: solid; border-bottom: solid;
+
+   margin-right: 0px;
+   margin-top: 0px;
+}
+
+.text1{
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 30px;
+}
+.text2{
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 30px;
+}
+
+.box2{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   border: rgb(0, 0, 0) 5px;
+   border-right: solid;
+   border-top: solid; border-bottom: solid;
+   
+   margin-left:0px;
+   margin-top: 0px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+}
+
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    .box1{
+        border-bottom: 0px;
+        border-right: 3px black solid  ;
+    }
+    .box2{
+        border-top: 0px;
+        border-left: 3px black solid;
+    }
+
+}
+
+@media (max-width:814px) {
+    .text1{
+        width: 200px;
+        height: 20px;
+    }    
+
+    .text2{
+            width: 200px;
+            height: 20px;
+        }
+
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    }
+
+
+    
